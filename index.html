@@ -4,16 +4,17 @@
 			imgurClone
 		</title>
 		
-		<script>
-		
-		
-		</script>
+		<script> </script>
 		
 		<style>	
+			.headerTable td {
+					margin: 0;
+				}
+
 			#grad{
 				background: linear-gradient(
 					to bottom,  
-					#171544 60%, 
+					#171544 53%, 
 					#2E3035 50%, 
 					#2E3035 100%
 				);
@@ -30,10 +31,11 @@
 				font-size: 30px;
 				font-family: "Verdana", Sans-serif;
 				color: white;
+				margin-left: 5%;
 			}
 			
 			button{
-				height: 32px;
+				height: 34px;
 				width: 110px;
 				background-color: #1BB76E;
 				color: white;
@@ -67,9 +69,9 @@
 			}
 			
 			#searchBar{
-                width: 500px; 
+                width: 70%; 
 				height:35px; 
-				border-radius: 7px; 
+				border-radius: 4px; 
 				background-color: #454469; 
 				color: white;
 				font-weight: bold;
@@ -107,39 +109,58 @@
 			#blackImg{
 				hover: pointer;
 			}
-			
 		
 		</style>
 	
 	</head>
 	
 	<body id="grad">
-		
-			<span id="main"> <strong> &nbspimgur </strong> </span> &nbsp <button> New post </button> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+		<table style="width: 100%;">
+			<tr>
+				<td style="width: 9%;">
+					<span id="main"> <strong> imgur </strong> </span> 
+				</td>
+				<td style="width: 9%;">
+					<span><button> New post </button> </span>
+				</td>
+				<td>
+					<span style="margin-left: 28%;"> <input id="searchBar" type="text" placeholder="Images, #tags, @users oh my!" name="search"> </span>
+				</td>
+				<td style="width: 5%;">
+				</td>
+				<td style="width: 8%;">
+					<span style="margin-left: 0%;"><button id="ad"> Go Ad-Free </button></span>
+				</td>
+				<td style="width: 6%;">
+					<span style="margin-left: 8%;"><a href="#sign-In" style="color: white; text-decoration: none; font-family: Verdana, Sans-serif;"> Sign In </a></span>
+				</td>
+				<td style="width: 9%;">
+					<span style="margin-left: 0;"><button id="SignUp"> Sign Up </button></span>
+				</td>
+			</tr>
+		</table>
 			
-			<span> <input id="searchBar" type="text" placeholder="Images, #tags, @users oh my!" name="search"> </span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <button id="ad"> Go Ad-Free </button> &nbsp &nbsp &nbsp <a href="#sign-In" style="color: white; text-decoration: none; font-family: Verdana, Sans-serif;"> Sign In </a> &nbsp &nbsp &nbsp <button id="SignUp"> Sign Up </button>                            
+		<center> <div class="blackImageBody">
+			<h2 style="color: #BDD1FD; margin-top: -7%;"> You, as an Imgurian, are a beautiful creature and deserve happiness. </h2> <br>
+			<img id="blackImg" src="\imgurClone\imgur-body.PNG"> 
+		</div> </center>
 			
-			<center> <div class="blackImageBody">
-				<h2 style="color: #BDD1FD;"> You, as an Imgurian, are a beautiful creature and deserve happiness. </h2> <br>
-				<img id="blackImg" src="imgur-body.PNG"> 
-			</div> </center>
-			
-			<!-- Footer Navigation Bar -->
-			<div class="navbar">
-				<a href="#imgur-imc">2021 Imgur, Inc</a>
-				<a href="#about">About</a>
-				<a href="#emerald">Emerald</a>
-				<a href="#press">Press</a>
-				<a href="#blog">Blog</a>
-				<a href="#privacy">Privacy</a>
-				<a href="#ccpa">CCPA</a>
-				<a href="#terms">Terms</a>
-				<a href="#advertise">Advertise</a>
-				<a href="#ad-choices">Ad Choices</a>
-				<a href="#rules">Rules</a>
-				<a href="#help">Help</a>
-				<a href="#...">...</a>
-				<a href="#get-the-app">Get the App</a>
-			</div>
+		<!-- Footer Navigation Bar -->
+		<div class="navbar">
+			<a href="#imgur-imc">2021 Imgur, Inc</a>
+			<a href="#about">About</a>
+			<a href="#emerald">Emerald</a>
+			<a href="#press">Press</a>
+			<a href="#blog">Blog</a>
+			<a href="#privacy">Privacy</a>
+			<a href="#ccpa">CCPA</a>
+			<a href="#terms">Terms</a>
+			<a href="#advertise">Advertise</a>
+			<a href="#ad-choices">Ad Choices</a>
+			<a href="#rules">Rules</a>
+			<a href="#help">Help</a>
+			<a href="#...">...</a>
+			<a href="#get-the-app">Get the App</a>
+		</div>
 	</body>
 </html>
