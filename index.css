@@ -1,0 +1,126 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #2E3035;
+}
+.first{
+    padding-top: 8px;
+    width: 100%;
+    height: 350px;
+    background-color: #171544;   
+}
+.second{
+    width: 100%;
+    height: 100%;
+    background-color: #2E3035;
+}
+.flex-container {
+    display: flex;  
+}  
+.flex-container > div {
+    margin: 10px;
+    font-size: 30px;
+    width: fit-content;
+}
+#main{
+    font-size: 30px;
+    font-family: "Verdana", Sans-serif;
+    color: white;
+}
+button{
+    height: 34px;
+    width: 110px;
+    background-color: #1BB76E;
+    color: white;
+    border-radius: 5px;
+    font-family: "Verdana", Sans-serif;
+    border: 0;
+    cursor: pointer;
+}
+#searchBar{
+    width: 100%; 
+    height:35px; 
+    border-radius: 4px; 
+    background-color: #454469; 
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "Verdana", Sans-serif;
+    padding-left: 8px;
+    border: 0;
+}
+#ad{
+    background-color: #6432F9;
+    color: white;
+    height: 35px;
+    width: 100px;
+    font-family: "Verdana", Sans-serif;
+    border: 0;
+}
+#SignUp{
+    font-family: "Verdana", Sans-serif;
+    border: 0;
+}
+::placeholder{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    opacity: 1;
+}
+#signIn{
+    width: 100%;
+    background-color: #171544;
+    padding: none;
+    color: white;
+    font-family: Verdana, Sans-serif;
+    font-size: 17px;
+}
+.footer {
+    overflow: hidden;
+    background-color: #333;  
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: "Verdana", Sans-serif;
+  }
+ .footer a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-size: 12px;
+ }
+ .footer a:hover {
+    background-color: #ddd;
+    color: black;
+ }
+ div.gallery {
+    border: 1px #2E3035;
+    border-radius: 5px;
+    margin: 5px;
+    float: left;
+    width: 180px;
+ }
+ div.gallery:hover {
+    border: 1px solid #777;
+ }
+ div.gallery img {
+    width: 100%;
+    /** height: auto; */
+ }
+div.desc {
+    background-color: #4A4D54;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.images{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#leaderBoard:hover{
+    cursor: pointer;
+}
