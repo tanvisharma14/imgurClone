@@ -82,7 +82,7 @@ button{
     bottom: 0;
     width: 100%;
     font-family: "Verdana", Sans-serif;
-  }
+}
  .footer a {
     float: left;
     display: block;
@@ -91,25 +91,25 @@ button{
     padding: 24px 26px;
     text-decoration: none;
     font-size: 12px;
- }
+}
  .footer a:hover {
     background-color: #ddd;
     color: black;
- }
+}
  div.gallery {
     border: 1px #2E3035;
     border-radius: 5px;
     margin: 5px;
     float: left;
     width: 180px;
- }
+}
  div.gallery:hover {
     border: 1px solid #777;
- }
+}
  div.gallery img {
     width: 100%;
     /** height: auto; */
- }
+}
 div.desc {
     background-color: #4A4D54;
     padding: 15px;
